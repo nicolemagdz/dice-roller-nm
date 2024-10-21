@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller Static</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>🎲Dice Roller API Test🎲</h1>
+        <button class="button" id="wakeServer">Wake Up Server</button>
+        <div class="dice-container" style="margin-top: 20px">
+            <label for="diceCount">Number of Dice:</label>
+            <input type="number" id="diceCount" min="1" value="5">
+            <button id="rollDice">Roll Dice</button>
+        </div>
+        <div id="result" class="dice-result"></div>
+        <p id="error" class="error"></p>
+    </div>
+</body>
+</html>
